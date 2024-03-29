@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Goo Business</title>
+    <link rel="stylesheet" href="./static/css/ReferralDashboard/style.css">
+    <link rel="stylesheet" href="./static/css/ReferralDashboard/responsive.css">
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar">
+        <a href="#">
+            <img 
+                src="./static/img/ReferralDashboard/logo.png"
+                alt="logo"
+            />
+        </a>
+        <ul class="navItems">
+            <li><a href="#" class="link">Home</a></li>
+            <li><a href="#" class="link">About Us</a></li>
+            <li><a href="#" class="link">Courses</a></li>
+            <li><a href="#" class="link">Projects</a></li>
+            <li><a href="#" class="link">Contact</a></li>
+        </ul>
+        <div>
+            <button class="freeBtn">
+                Try for free
+            </button>
+        </div>
+    </nav>
+
+    <!-- Profile Bar -->
+    <div class="profile">
+        <div class="left-profile">
+            <h1 class="heading">Referral Dashboard</h1>
+            <div class="search">
+                <img 
+                    src="./static/img/ReferralDashboard/searchIcon.svg"
+                    alt="search icon"
+                />
+                <input type="text" placeholder="Search here..." class="search-input" />
+            </div>
+        </div>
+        <div class="right-profile">
+            <button class="search-btn">
+                Search
+            </button>
+            <img 
+                src="./static/img/ReferralDashboard/profile.png"
+                alt="profile"
+            />
+        </div>
+    </div>
+
+    <!-- Dashboard Content -->
+    <div class="dashboard-content">
+        <!-- referal benefits -->
+        <div class="ref-benefits">
+            <img src="./static/img/ReferralDashboard/totalBalance.png" alt="totalBalance">
+            <img src="./static/img/ReferralDashboard/discountPercentage.png" alt="discountPercentage">
+            <img src="./static/img/ReferralDashboard/totalReferral.png" alt="totalReferral">
+            <img src="./static/img/ReferralDashboard/discountAmount.png" alt="discountAmount">
+            <img src="./static/img/ReferralDashboard/commissionAmount.png" alt="commissionAmount">
+            <img src="./static/img/ReferralDashboard/totalEarning.png" alt="totalEarning">
+            <img src="./static/img/ReferralDashboard/commissionDiscount.png" alt="commissionDiscount">
+            <img src="./static/img/ReferralDashboard/totalBankTransfer.png" alt="totalBankTransfer">
+        </div>
+        <!-- referral data -->
+        <div class="ref-data">
+            <div>
+                <p class="tag">Service</p>
+                <p class="service">Some Service</p>
+            </div>
+            <div>
+                <p class="tag">Your Referral</p>
+                <p class="service">0 +    0 </p>
+            </div>
+            <div>
+                <p class="tag">Active Referral</p>
+                <p class="service">0 +    0 </p>
+            </div>
+            <div>
+                <p class="tag">Total Ref. Earning</p>
+                <p class="service">$0.00</p>
+            </div>
+        </div>
+        <!-- refer friends heading -->
+        <div class="ref-friends-container">
+            <p class="ref-friends">Refer Friends And Earn More !!</p>
+        </div>
+        
+        <!-- referral link and code -->
+        <div class="ref-links">
+        <!-- link -->
+            <div >
+                <h2 class="sub-heading">Your Referral Link</h2>
+                <div class="ref-linkCode">
+                    <input 
+                        class="ref-link-input"
+                        value="https://gobusiness.com/?refferal=ABCXYZ"
+                        disabled
+                    />
+                    <button class="copyBtn">
+                        <img 
+                            src="./static/img/ReferralDashboard/CopyBtn.png"
+                            alt="copyBtn"
+                        />
+                    </button>
+                </div>
+            </div>
+            <!-- code -->
+            <div>
+                <h2 class="sub-heading">Your Referral Code</h2>
+                <div class="ref-linkCode">
+                    <input 
+                        class="ref-code-input"
+                        value="ABCXYZ"
+                        disabled
+                    />
+                    <button class="copyBtn">
+                        <img 
+                            src="./static/img/ReferralDashboard/CopyBtn.png"
+                            alt="copyBtn"
+                        />
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- service table -->
+        <!-- search-filter form -->
+        <div class="service-table">
+            <!-- entries -->
+            <div class="entries-search-text">
+                Show
+                <input
+                    class="entry-input"
+                    type="number"
+                    value="10"
+                /> Entries
+            </div>
+            <!-- search -->
+            <div class="entries-search-text">
+                Search:
+                <input 
+                    class="service-search-input"
+                    type="text"
+                />
+            </div>
+        </div>
+        <!-- table -->
+        <table>
+            <thead class="table-header">
+                <th rowspan="2" class="tableName">Name</th>
+                <th></th>
+                <th class="serviceName">Service Name</th>
+                <th class="date">Date</th>
+                <th class="profit">Profit</th>
+            </thead>
+            <tr class="table-content">
+                <td colspan="2" class="name">Pranjal</td>
+                <td class="serviceName">PM</td>
+                <td class="date">2011/11/28</td>
+                <td class="profit">$162,700</td>
+            </tr>
+            <tr class="table-content">
+                <td colspan="2" class="name">Paritosh</td>
+                <td class="serviceName">PM</td>
+                <td class="date">2007/10/09</td>
+                <td class="profit">$12,00,000</td>
+            </tr>
+            <tr class="table-content">
+                <td colspan="2" class="name">Palav</td>
+                <td class="serviceName">B2b</td>
+                <td class="date">2009/01/12</td>
+                <td class="profit">$86,000</td>
+            </tr>
+            <tr class="table-content">
+                <td colspan="2" class="name">Moumita</td>
+                <td class="serviceName">HR</td>
+                <td class="date">2012/10/13</td>
+                <td class="profit">$132,000</td>
+            </tr>
+            <tr class="table-content">
+                <td colspan="2" class="name">Mitesh</td>
+                <td class="serviceName">Graphics</td>
+                <td class="date">2011/06/07</td>
+                <td class="profit">$206,850</td>
+            </tr>
+            <tr class="table-content">
+                <td colspan="2" class="name">Srinivas</td>
+                <td class="serviceName">Frontend</td>
+                <td class="date">2012/12/02</td>
+                <td class="profit">$372,000</td>
+            </tr>
+            <tr class="table-content">
+                <td colspan="2" class="name">Hritik</td>
+                <td class="serviceName">Graphic</td>
+                <td class="date">2011/05/03</td>
+                <td class="profit">$163,500</td>
+            </tr>
+            <tr class="table-content">
+                <td colspan="2" class="name">abc</td>
+                <td class="serviceName">HR</td>
+                <td class="date">2011/12/12</td>
+                <td class="profit">$106,450</td>
+            </tr>
+            <tr class="table-content">
+                <td colspan="2" class="name">xyz</td>
+                <td class="serviceName">B2b</td>
+                <td class="date">2011/12/06</td>
+                <td class="profit">$145,600</td>
+            </tr>
+            <tr class="table-content">
+                <td colspan="2" class="name">bcd</td>
+                <td class="serviceName">B2b</td>
+                <td class="date">2012/03/29</td>
+                <td class="profit">$433,060</td>
+            </tr>
+        </table>
+
+        <!-- Pagination Button -->
+        <div class="pagination">
+            <p class="paginationData">Showing 1 to 10 of 57 entries</p>
+            <div>
+                <button class="link-btn link-btn-previous">
+                    <a href="#">Previous</a>
+                </button>
+                <button class="link-btn link-btn-1">
+                    <a href="#">1</a>
+                </button>
+                <button class="link-btn">
+                    <a href="#">2</a>
+                </button>
+                <button class="link-btn">
+                    <a href="#">3</a>
+                </button>
+                <button class="link-btn">
+                    <a href="#">4</a>
+                </button>
+                <button class="link-btn">
+                    <a href="#">5</a>
+                </button>
+                <button class="link-btn">
+                    <a href="#">6</a>
+                </button>
+                <button class="link-btn link-btn-next">
+                    <a href="#">Next</a>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <!-- footer links -->
+        <div class="footer-links">
+            <ul class="list">
+                <li class="list-item1">COMPANY</li>
+                <li class="footer-link-item"><a href="#">About</a></li>
+                <li class="footer-link-item"><a href="#">Premium</a></li>
+                <li class="footer-link-item"><a href="#">Blog</a></li>
+                <li class="footer-link-item"><a href="#">Referral Program</a></li>
+            </ul>
+            <ul class="list">
+                <li class="list-item1">HELP AND SUPPORT</li>
+                <li class="footer-link-item"><a href="#">Contact Us</a></li>
+                <li class="footer-link-item"><a href="#">Knowledge Center</a></li>
+                <li class="footer-link-item"><a href="#">Premium Support</a></li>
+            </ul>
+            <ul class="list">
+                <li class="list-item1">LEARNING</li>
+                <li class="footer-link-item"><a href="#">Learn Hub</a></li>
+                <li class="footer-link-item"><a href="#">Tutorials</a></li>
+                <li class="footer-link-item"><a href="#">Communities</a></li>
+            </ul>
+            <ul class="list">
+                <li class="list-item1">RESOURCES</li>
+                <li class="footer-link-item"><a href="#">Third-Party Tools</a></li>
+                <li class="footer-link-item"><a href="#">Illustrations</a></li>
+                <li class="footer-link-item"><a href="#">Stock Photos</a></li>
+            </ul>
+            <ul class="list">
+                <li class="list-item1">LEGAL</li>
+                <li class="footer-link-item"><a href="#">Privacy Policy</a></li>
+                <li class="footer-link-item"><a href="#">Terms And Conditions</a></li>
+                <li class="footer-link-item"><a href="#">EULA</a></li>
+            </ul>
+        </div>
+        <!-- contact links -->
+        <div class="contact-links">
+            <img 
+                src="./static/img/ReferralDashboard/logo.png"
+                alt="logo"
+            />
+            <p>© 2024 Go Business, Inc. All rights reserved.</p>
+            <div class="socialLinks">
+                <a href="#"><img src="./static/img/ReferralDashboard/linkedin.png" alt="linkedin"></a>
+                <a href="#"><img src="./static/img/ReferralDashboard/facebook.png" alt="facebook"></a>
+                <a href="#"><img src="./static/img/ReferralDashboard/insta.png" alt="instagram"></a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

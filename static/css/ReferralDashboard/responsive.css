@@ -1,0 +1,101 @@
+@media (max-width: 1200px) {
+    .navbar {
+        flex-direction: column;
+    }
+    .ref-data {
+        grid-template-rows: 2;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .ref-links {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 992px) {
+    .profile {
+        flex-direction: column;
+    }
+    /* .ref-friends-container {
+        border: none;
+    } */
+    .footer-links {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    
+}
+
+@media (max-width: 768px) {
+    .navItems {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .ref-friends-container {
+        padding: 1rem;
+        margin-bottom: -3rem;
+    }
+    
+    .ref-friends {
+        font-size: 16px;
+    }
+
+    .ref-link-input {
+        width: 50%;
+    }
+
+    .tableName {
+        width: 100px;
+        height: 25px;
+        padding: 1rem;
+    }
+    .name {
+        width: 100px;
+        height: 20px;
+        padding: 1rem;
+
+    }
+    .serviceName {
+        width: 75px;
+        height: 20px;
+        padding: 1rem;
+
+    }
+    .date{
+        height: 20px;
+        padding: 1rem;
+        width: 50px;
+    }
+    .profit {
+        height: 20px;
+        padding: 1rem;
+        width: 50px;
+    }
+}
+
+@media (max-width: 512px) {
+    .tableName {
+        width: 75px;
+        padding: 0.5rem;
+    }
+    .name {
+        width: 60px;
+        padding: 0.5rem;
+    }
+    .serviceName {
+        padding: 0.5rem;
+        width: 50px;
+    }
+    .date{
+        padding: 0.5rem;
+        width: 40px;
+    }
+    .profit {
+        padding: 0.5rem;
+        width: 40px;
+    }
+    .service-table {
+        flex-direction: column;
+    }
+}
